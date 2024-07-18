@@ -3,7 +3,7 @@ import gradio as gr
 import torch
 
 # Load the model
-model_id1 =  "runwayml/stable-diffusion-v1-5"
+model_id1 =  "dreamlike-art/dreamlike-diffusion-1.0"
 pipe = StableDiffusionPipeline.from_pretrained(model_id1, torch_dtype=torch.float16, use_safetensors=True)
 pipe = pipe.to("cuda")
 
