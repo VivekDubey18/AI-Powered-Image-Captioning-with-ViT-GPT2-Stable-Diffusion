@@ -7,3 +7,5 @@ This project is a text-to-image generation application that utilizes a fine-tune
 - **Text-to-Image Generation**: Generate high-quality images from textual descriptions.
 - **Fine-Tuned Stable Diffusion Model**: Uses a customized Stable Diffusion model to improve image generation.
 - **Gradio Interface**: Provides an intuitive and interactive web interface for easy use.
+
+- ![Alt text](Example_Image.png)
