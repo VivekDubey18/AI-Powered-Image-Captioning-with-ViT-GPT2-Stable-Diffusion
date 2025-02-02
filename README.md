@@ -69,6 +69,9 @@ dataset
 │   ├── train_prompts.csv
 │   └── test_prompts.csv
 ```
+
+![Dataset Structure](Dataset Structure.jpg)
+
 ---
 
 ## 🎯 Model Training  
