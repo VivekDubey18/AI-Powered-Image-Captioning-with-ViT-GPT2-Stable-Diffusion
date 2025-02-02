@@ -1,6 +1,6 @@
 # 🚀 AI-Powered Image Captioning with ViT-GPT2 & Stable Diffusion  
 
-![Project Banner](https://via.placeholder.com/1000x400?text=AI+Image+Captioning)
+
 
 An advanced **image captioning system** leveraging **ViT-GPT2** and **Stable Diffusion 2.1** to generate accurate text descriptions for images.  
 This project includes **dataset creation, model training, BLEU score evaluation, and a Gradio-based interactive demo**.
@@ -13,10 +13,7 @@ This project includes **dataset creation, model training, BLEU score evaluation,
 - [Dataset Preparation](#-dataset-preparation)  
 - [Model Training](#-model-training)  
 - [Evaluation](#-evaluation)  
-- [Installation](#-installation)  
-- [Usage](#-usage)  
 - [Results](#-results)  
-- [Contributors](#-contributors)  
 
 ---
 
@@ -61,11 +58,4 @@ The model is evaluated using **BLEU Score comparisons**:
 - COCO-trained model on COCO images  
 - COCO-trained model on AI-generated images  
 
----
 
-## ⚙️ Installation  
-Clone the repository and install dependencies:  
-```bash
-git clone https://github.com/yourusername/AI-Image-Captioning.git
-cd AI-Image-Captioning
-pip install -r requirements.txt
