@@ -49,7 +49,25 @@ The model is evaluated using **BLEU Score metrics**, and the final solution is d
 
 The project uses a custom dataset divided into several directories for training and testing. The dataset is structured as follows:
  
-coco_images/ ├── train/ │ ├── [Images for Training] ├── test/ │ ├── [Images for Testing] ├── prompts/ │ ├── train/ │ │ ├── [Prompts for Training] │ ├── test/ │ │ ├── [Prompts for Testing] ├── csv_files/ │ ├── train_images.csv │ ├── test_images.csv │ ├── train_prompts.csv │ ├── test_prompts.csv 
+dataset
+│
+├── coco_images/
+│   ├── train/
+│   │   └── [Images for Training]
+│   ├── test/
+│       └── [Images for Testing]
+│
+├── prompts/
+│ ├── train/
+│ │ └── [prompts for Training]
+│ ├── test/
+│      └── [prompts for Testing]
+│
+├── csv_files/
+│   ├── train_images.csv
+│   ├── test_images.csv
+│   ├── train_prompts.csv
+│   └── test_prompts.csv
 
 ---
 
