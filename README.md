@@ -70,7 +70,8 @@ dataset
 │   └── test_prompts.csv
 ```
 
-![Dataset Structure](Dataset Structure.jpg)
+![Dataset Structure](dataset_structure.jpg)
+
 
 ---
 
