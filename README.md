@@ -56,6 +56,17 @@ The model is evaluated using **BLEU Score comparisons**:
 - AI-trained model on AI-generated images  
 - AI-trained model on COCO images  
 - COCO-trained model on COCO images  
-- COCO-trained model on AI-generated images  
+- COCO-trained model on AI-generated images
+
+---
+
+
+## 📸 Results  
+
+| Model               | BLEU Score(COCO) | BLEU Score (AI) |  
+|---------------------|------------------|-----------------|  
+| **ViT-GPT2 (COCO)** | 0.135            | 0.105           |  
+| **ViT-GPT2 (AI)**   | 0.088            | 0.094           |  
+
 
 
