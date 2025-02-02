@@ -48,7 +48,7 @@ The model is evaluated using **BLEU Score metrics**, and the final solution is d
 ## 📊 **Dataset Structure**
 
 The project uses a custom dataset divided into several directories for training and testing. The dataset is structured as follows:
- 
+ ```
 dataset
 │
 ├── coco_images/
@@ -68,7 +68,7 @@ dataset
 │   ├── test_images.csv
 │   ├── train_prompts.csv
 │   └── test_prompts.csv
-
+```
 ---
 
 ## 🎯 Model Training  
