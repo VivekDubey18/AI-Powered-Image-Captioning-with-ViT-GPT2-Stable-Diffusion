@@ -1,3 +1,71 @@
-📌 AI-Powered Image Captioning with ViT-GPT2 & Stable Diffusion
+# 🚀 AI-Powered Image Captioning with ViT-GPT2 & Stable Diffusion  
 
-🚀 An advanced image captioning system leveraging ViT-GPT2 and Stable Diffusion 2.1 to generate accurate text descriptions for images. This project involves dataset creation, model training, BLEU score evaluation, and a Gradio-based interactive demo.
+![Project Banner](https://via.placeholder.com/1000x400?text=AI+Image+Captioning)
+
+An advanced **image captioning system** leveraging **ViT-GPT2** and **Stable Diffusion 2.1** to generate accurate text descriptions for images.  
+This project includes **dataset creation, model training, BLEU score evaluation, and a Gradio-based interactive demo**.
+
+---
+
+## 📌 Table of Contents  
+- [Overview](#-overview)  
+- [Features](#-features)  
+- [Dataset Preparation](#-dataset-preparation)  
+- [Model Training](#-model-training)  
+- [Evaluation](#-evaluation)  
+- [Installation](#-installation)  
+- [Usage](#-usage)  
+- [Results](#-results)  
+- [Contributors](#-contributors)  
+
+---
+
+## 🔍 Overview  
+This project focuses on **image caption generation** using a **ViT-GPT2 transformer-based model** trained on both:  
+✅ **COCO dataset** (real-world images)  
+✅ **AI-generated dataset** (created using Stable Diffusion 2.1)  
+
+The model is evaluated using **BLEU Score metrics**, and the final solution is deployed via a **Gradio-based UI** for real-time inference.
+
+---
+
+## 🚀 Features  
+✔️ **Custom AI dataset creation** using Stable Diffusion  
+✔️ **ViT-GPT2 fine-tuning** on AI & COCO images  
+✔️ **BLEU Score evaluation** to compare model accuracy  
+✔️ **Interactive Gradio frontend** for image captioning  
+✔️ **Google Drive integration** for dataset storage  
+
+---
+
+## 📂 Dataset Preparation  
+1. **Link Google Drive with Google Colab**  
+2. **Download COCO annotation files**  
+3. **Split dataset into Train & Test sets**  
+4. **Generate AI images using Stable Diffusion**  
+5. **Prepare dataset for training (AI & COCO)**  
+
+---
+
+## 🎯 Model Training  
+✅ Train **ViT-GPT2** on AI-generated images  
+✅ Train **ViT-GPT2** on COCO dataset  
+✅ Save & load model checkpoints  
+
+---
+
+## 📊 Evaluation  
+The model is evaluated using **BLEU Score comparisons**:  
+- AI-trained model on AI-generated images  
+- AI-trained model on COCO images  
+- COCO-trained model on COCO images  
+- COCO-trained model on AI-generated images  
+
+---
+
+## ⚙️ Installation  
+Clone the repository and install dependencies:  
+```bash
+git clone https://github.com/yourusername/AI-Image-Captioning.git
+cd AI-Image-Captioning
+pip install -r requirements.txt
