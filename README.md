@@ -10,7 +10,8 @@ This project includes **dataset creation, model training, BLEU score evaluation,
 ## 📌 Table of Contents  
 - [Overview](#-overview)  
 - [Features](#-features)  
-- [Dataset Preparation](#-dataset-preparation)  
+- [Dataset Preparation](#-dataset-preparation)
+- [Dataset Structure](#-dataset-structure)  
 - [Model Training](#-model-training)  
 - [Evaluation](#-evaluation)  
 - [Results](#-results)  
@@ -41,6 +42,14 @@ The model is evaluated using **BLEU Score metrics**, and the final solution is d
 3. **Split dataset into Train & Test sets**  
 4. **Generate AI images using Stable Diffusion**  
 5. **Prepare dataset for training (AI & COCO)**  
+
+---
+
+## 📊 **Dataset Structure**
+
+The project uses a custom dataset divided into several directories for training and testing. The dataset is structured as follows:
+ 
+coco_images/ ├── train/ │ ├── [Images for Training] ├── test/ │ ├── [Images for Testing] ├── prompts/ │ ├── train/ │ │ ├── [Prompts for Training] │ ├── test/ │ │ ├── [Prompts for Testing] ├── csv_files/ │ ├── train_images.csv │ ├── test_images.csv │ ├── train_prompts.csv │ ├── test_prompts.csv 
 
 ---
 
